@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>css transfromation</title>
+    <style>
+        #d1{
+            width: 80%;
+            height: 480px;
+            background:linear-gradient( red,green,rgb(121, 121, 205));
+            margin: 20px 0 0 20px;
+            padding: 10px;
+            display: inline-flex;
+            border-radius: 25px;
+            
+
+        }
+      .d2{
+            width: 300px;
+            height: 300px;
+            background:linear-gradient(rgb(0,255,255),rgb(106,90,205),coral,rgb(210,180,140),brown,black,rgb(255,105,180));
+            border: 2px solid red;
+            margin: 20px;
+            border-radius: 8px;
+           
+        }
+        .d2:hover{
+            transform: rotateX(330deg);
+        }
+        button{
+            margin-top: 230px;
+            height:60px;
+            width: 140px;
+            text-align: center;
+            background: linear-gradient(rgb(234, 110, 110),rgb(64, 107, 64));
+            border-radius: 25px;
+            font-style: italic;
+            font-size: 40px;
+        }
+        button:hover{
+            transform: rotateX(330deg);
+            border-color: blue;
+            color: rgb(57, 45, 45);
+        }
+        #d3{
+            width: 65%;
+            height: 800px;
+            background:linear-gradient( rgb(82, 35, 35),rgb(80, 125, 80),rgb(19, 19, 44),rgb(71, 29, 29));
+            
+
+        }
+    </style>
+</head>
+<body style="background-color:black">           
+    <center>
+   <div id="d3">
+    <div id="d1">
+        <div class="d2"><button>button</button></div>
+        <div class="d2"><button>button</button></div>
+        <div class="d2"><button>button</button></div>
+   </div>
+   
+   </div> 
+</center>
+</body>
+</html>
